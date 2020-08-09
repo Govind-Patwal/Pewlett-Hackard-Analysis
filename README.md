@@ -24,3 +24,39 @@ As a part of my past assignment at Pewlett Hackard, I analysed various factors a
 6. dept_info
 
 Now Bobby's manager has given both of you two more assignments: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, we’ll write a report that summarizes our analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
+
+## Analysis Results
+
+Four major points from the two analysis deliverables. 
+
+1) Retirement Analysis
+
+    ![Retirement Titles](./Resources/retirement_titles.png)
+
+
+2) Unique Titles
+
+    ![Unique Titles](./Resources/unique_titles.png)
+
+3) Retiring Titles
+
+    ![Retiring Titles](./Resources/retiring_titles.png)
+
+
+3) Mentorship Eligibility
+
+    ![Mentorship Eligibility](./Resources/mentorship_eligibilty.png)
+
+## Summary
+
+Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+
+Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+
+* How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+* Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+
+
+
+

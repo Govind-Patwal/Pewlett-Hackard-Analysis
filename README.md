@@ -39,7 +39,8 @@ Four major points from the two analysis deliverables.
     ![Retirement Titles](./Resources/retirement_titles.png)
 
 
-2) Unique Titles - We retrieved the unique titles that are to 
+2) ### Unique Titles
+We retrieved the unique people that are set to retire. The number came out to **90,398**. With an employee count of **300,024**, this means that a 
 
     ![Unique Titles](./Resources/unique_titles.png)
 

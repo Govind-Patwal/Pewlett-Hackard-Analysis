@@ -16,7 +16,7 @@ My task is to help Bobby build an employee database with SQL by applying my data
 
 ## Purpose of this Analysis
 As a part of my past assignment at Pewlett Hackard, I analysed various factors and created the following tables.
-1. Retirement eligibility
+1. retirement eligibility
 2. retirement_info
 3. current_emp
 4. number_of_employees_retiring_per_department
@@ -29,7 +29,8 @@ Now Bobby's manager has given both of you two more assignments: determine the nu
 
 Four major points from the two analysis deliverables. 
 
-1) Retirement Titles - The total number of records retreived was **133,776**. However it does not tell us a correct number of people about to retire ,as there are a lot of duplicate entries. The reason of this is that the data is coming straight out from the table **titles**, which contains all the titles that a person has ever held while working with Pewlett Hackard. This table has **443,308** records as compared to **300,024** in the table **employees**.
+1) ### Retirement Titles 
+    The total number of records retreived was **133,776**. However it does not tell us the correct number of people about to retire - there are a lot of duplicate entries. The reason behind this is that the data is coming straight out from the table **titles**, which contains all the titles that a person has ever held while working with Pewlett Hackard. The table **titles** has **443,308** records as compared to **300,024** in the table **employees**.
 
     If we had a table to start with that had the latest titles of all employees, many steps would have been saved.
 
@@ -38,7 +39,7 @@ Four major points from the two analysis deliverables.
     ![Retirement Titles](./Resources/retirement_titles.png)
 
 
-2) Unique Titles
+2) Unique Titles - We retrieved the unique titles that are to 
 
     ![Unique Titles](./Resources/unique_titles.png)
 

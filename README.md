@@ -29,7 +29,7 @@ Now Bobby's manager has given both of you two more assignments: determine the nu
 
 Four major points from the two analysis deliverables. 
 
-1) Retirement Analysis
+1) Retirement Titles
 
     ![Retirement Titles](./Resources/retirement_titles.png)
 

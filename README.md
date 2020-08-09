@@ -29,7 +29,11 @@ Now Bobby's manager has given both of you two more assignments: determine the nu
 
 Four major points from the two analysis deliverables. 
 
-1) Retirement Titles
+1) Retirement Titles - The total number of records retreived was **133,776**. However it does not tell us a correct number of people about to retire ,as there are a lot of duplicate entries. The reason of this is that the data is coming straight out from the table **titles**, which contains all the titles that a person has ever held while working with Pewlett Hackard. This table has **443,308** records as compared to **300,024** in the table **employees**.
+
+    If we had a table to start with that had the latest titles of all employees, many steps would have been saved.
+
+    **Image 1 (below): Table - Retirement Titles**
 
     ![Retirement Titles](./Resources/retirement_titles.png)
 

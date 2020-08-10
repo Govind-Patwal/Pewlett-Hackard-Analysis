@@ -62,7 +62,7 @@ Four major points from the two analysis deliverables.
     The table and the % of people that are set to retire points to the tough task in front of the HR department. Assuming that Pewlett Hackard is not overstaffed, 30% of less people could have a dramatic effect on the productivity of the company and even its viability. The time to Act is NOW!
 
 3) ### Retiring Titles
-    This table shows the titles that are going to be most affected by the retirement. Almost 33% of all the people retiring will have the title **Senior Engineer**, and another almost 33% will have the title **Senior Staff**.
+    This table shows the titles that are going to be most affected by the retirement. Almost 32.5% of all the people retiring will have the title **Senior Engineer**, and another almost 31% will have the title **Senior Staff**.
     
     HR might also want to see if the abysmally low number of managers is one of the reason that has got them to this point. Assuming a normal distribution, Managers are constituting **0.00002%** of the workforce. 
 
@@ -80,6 +80,7 @@ Four major points from the two analysis deliverables.
 
     ![Mentorship Eligibility](./Resources/mentorship_eligibilty.png)
 
+
 ## Summary
 
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
@@ -87,7 +88,15 @@ Summary: Provide high-level responses to the following questions, then provide t
 * How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
     The total number of people people who will be retiring is **90,398**
+    The breakdown is 
+    Senior Engineers: 29,414
+    Senior Staff: 28,254
+    Engineer: 14,222
+    Staff: 12,243
+    Technique Leader: 4,502
+    Assistant Engineer: 1,761
+    Manager: 2
 
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-    The total number of qualified, retirement-ready people ready for mentorship is **1,549**
+    With **90,398** people set to retire and the only 1,549 selected to be mentored, I believe there are enough qualified, retirement-ready employees.

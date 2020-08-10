@@ -104,9 +104,11 @@ Summary: Provide high-level responses to the following questions, then provide t
     
 ## Additional queries/tables   
   
-1) The management did not select just 1 year of birth to make a list of retireeing elmplyees (it chose 3 years - DOB between 1952 and 1955).
+1) The management selected the DOB between 1952 and 1955 while making the list of retiring employees
 
-    If it applies the 3-year DOB criteria for the mentorship program, the pool can be increased. 
+    If it applies the 3-year DOB criteria for the mentorship program, the pool can be substantially increased. 
+
+    Applying the criteria below increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%)
 
     ``` 
         SELECT DISTINCT ON (e.emp_no) 
@@ -127,3 +129,8 @@ Summary: Provide high-level responses to the following questions, then provide t
         AND de.to_date = '9999-01-01'
         ORDER BY e.emp_no;
     ```
+    **Image 5 (below): Table - Revised Mentorship Eligibility**  
+
+    ![Revised Mentorship Eligibility](./Resources/revised_mentorship_eligibilty.png)
+
+    [CSV file - revised_mentorship_eligibilty.csv](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/revised_mentorship_eligibilty.csv)

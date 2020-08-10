@@ -39,7 +39,9 @@ Four major points from the two analysis deliverables.
     
     The reason behind the duplicates records is that the data is coming straight out from the table **titles**, which contains all the titles that a person has ever held while working with Pewlett Hackard. The table **titles** has **443,308** records as compared to **300,024** in the table **employees**.
 
-    TAKEAWAY - If we have a table that has the latest titles of all employees, many steps can be saved. In the past Pewlett Hackard has been using EXCEL and VBA - with SQL, this table can be create using some lines of code
+    TAKEAWAY - If we had a table that had the latest titles of all employees, many steps could have been saved. 
+    
+    In the past Pewlett Hackard was using EXCEL and VBA. Now, with SQL, we will create this table with a few lines of code
     ```
     SELECT  DISTINCT ON (emp_no)
 	    emp_no,
@@ -59,7 +61,7 @@ Four major points from the two analysis deliverables.
 
     ![Unique Titles](./Resources/unique_titles.png)
 
-    The table and the % of people that are set to retire points to the tough task in front of the HR department. Assuming that Pewlett Hackard is not overstaffed, 30% of less people could have a dramatic effect on the productivity of the company and even its viability. The time to Act is NOW!
+    The table and the % of people that are set to retire points to the tough task in front of the HR department. Assuming that Pewlett Hackard is not overstaffed, 30% of less workforce could have a dramatic effect on the productivity of the company and even its viability. The time to Act is NOW!
 
 3) ### Retiring Titles
     This table shows the titles that are going to be most affected by the retirement. Almost 32.5% of all the people retiring will have the title **Senior Engineer**, and another almost 31% will have the title **Senior Staff**.
@@ -98,11 +100,11 @@ Four major points from the two analysis deliverables.
 
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-    With **90,398** people set to retire and the only 1,549 selected to be mentored, I believe there are enough qualified, retirement-ready employees to mentor the next generation of employees. 
+    With **90,398** people set to retire and the only 1,549 selected to be mentored, there are enough qualified, retirement-ready employees to mentor the next generation of employees. 
     
 ## Additional queries/tables   
   
-1) We can run a query to group the canditates for the mentorship program according to titles. This will allow the HR to align their hiring focus.
+1) We can run a query to group the canditates eligible for the mentorship program according to titles. This will give the HR a better insight and let them prepare better.
     
     **Script**
     ```
@@ -152,4 +154,4 @@ Four major points from the two analysis deliverables.
 
     **Link to download the revised_mentorship_eligibilty CSV file -** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/revised_mentorship_eligibilty.csv)   
 
-    **Result** - If the DOB criteria is bradned, the pool can be substantially increased - applying the criteria (DOB between 1962 to 1965) increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%). 
+    **Result** - If the DOB criteria is broadned, the pool can be substantially increased - applying the criteria (DOB between 1962 to 1965) increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%). 

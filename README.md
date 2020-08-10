@@ -52,7 +52,6 @@ Four major points from the two analysis deliverables.
     ```
     This new table **latest_titles_of_employees** has **300,024** records, the same as the employees table. 
 
-
 2) ### Unique Titles
     We retrieved the unique people that are set to retire. The number came out to **90,398**. With a total employee count of **300,024**, this points to the fact that **30.13%** of employees of Pewlett Hackard are set to retire.
 
@@ -60,12 +59,10 @@ Four major points from the two analysis deliverables.
 
     ![Unique Titles](./Resources/unique_titles.png)
 
+    The table and the % of people that are set to retire points to the tough task in front of the HR department. Assuming that Pewlett Hackard is not overstaffed, 30% of less people could have a dramatic effect on the productivity of the company and even its viability.
 
 
-
-    
-
-3) Retiring Titles
+3) ### Retiring Titles
 
     ![Retiring Titles](./Resources/retiring_titles.png)
 

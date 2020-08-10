@@ -72,6 +72,8 @@ Four major points from the two analysis deliverables.
 
 3) ### Mentorship Eligibility
 
+    **Image 4 (below): Table - Mentorship Eligibility**
+
     ![Mentorship Eligibility](./Resources/mentorship_eligibilty.png)
 
 ## Summary

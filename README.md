@@ -41,7 +41,7 @@ Four major points from the two analysis deliverables.
 
     TAKEAWAY - If we had a table that had the latest titles of all employees, many steps could have been saved. 
     
-    In the past Pewlett Hackard was using EXCEL and VBA. Now, with SQL, we will create this table with a few lines of code
+    In the past Pewlett Hackard was using EXCEL and VBA. Now, with SQL, we created this table with a few lines of code
     ```
     SELECT  DISTINCT ON (emp_no)
 	    emp_no,
@@ -53,6 +53,8 @@ Four major points from the two analysis deliverables.
     ORDER BY emp_no;
     ```
     This new table **latest_titles_of_employees** has **300,024** records, the same as the employees table. 
+
+    **Link to download the latest_titles_of_employees CSV file -** [**HERE**](./Data/Additional_tables/latest_titles_of_employees.csv) 
 
 2) ### Unique Titles
     We retrieved the unique people that are set to retire. The number came out to **90,398**. With a total employee count of **300,024**, this points to the fact that **30.13%** of employees of Pewlett Hackard are set to retire.

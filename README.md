@@ -125,7 +125,7 @@ Four major points from the two analysis deliverables.
 
 2. The management selected the DOB between 1952 and 1955 while making the list of retiring employees
 
-    A query can be run to see what will happen if the management applies the 3-year DOB criteria for the mentorship program. 
+    A query can be run to see what will happen if the management were to apply the 4-year DOB criteria (DOB between 1962 to 1965) for the mentorship program. 
 
     **Script**
 
@@ -154,4 +154,4 @@ Four major points from the two analysis deliverables.
 
     **Link to download the revised_mentorship_eligibilty CSV file -** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/revised_mentorship_eligibilty.csv)   
 
-    **Result** - If the DOB criteria is broadned, the pool can be substantially increased - applying the criteria (DOB between 1962 to 1965) increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%). 
+    **Result** - If the DOB criteria is broadned, the pool can be substantially increased - applying the criteria  increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%). 

@@ -120,7 +120,7 @@ Four major points from the two analysis deliverables.
 
     ![Revised Mentorship Eligibility](./Resources/mentorship_eligibility_by_titles.png)
 
-    **Link to download the mentorship_eligibility_by_titles CSV file -** [**HERE**](./Data/Additional_tables/mentorship_eligibility_by_titles.csv)
+    **View the mentorship_eligibility_by_titles CSV file -** [**HERE**](./Data/Additional_tables/mentorship_eligibility_by_titles.csv)
 
 
 2. The management selected the DOB between 1952 and 1955 while making the list of retiring employees

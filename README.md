@@ -74,7 +74,7 @@ Four major points from the two analysis deliverables.
 
 3) ### Mentorship Eligibility
 
-    The total number of records retured were **1,549**. This is **1.7%** of total titles to be replaced at **90,398**.
+    The total number of people eligible for mentoring were **1,549**. This is **1.7%** of total titles to be replaced at **90,398**.
 
     **Image 4 (below): Table - Mentorship Eligibility**
 

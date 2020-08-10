@@ -70,7 +70,7 @@ Four major points from the two analysis deliverables.
 
     While the HR team should work on replacing all titles, it should also think about increasing the % of managers, and having ongoing (bi-annual/quarterly) discussion about their staffing situations and needs.
 
-3) Mentorship Eligibility
+3) ### Mentorship Eligibility
 
     ![Mentorship Eligibility](./Resources/mentorship_eligibilty.png)
 
@@ -81,9 +81,9 @@ Results: Provide a bulleted list with four major points from the two analysis de
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 
 * How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+
+    The total number of people people who will be retiring is **90,398**
+
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-
-
-
-
+    The total number of qualified, retirement-ready people ready for mentorship is **1,549**

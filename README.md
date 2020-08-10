@@ -100,4 +100,30 @@ Summary: Provide high-level responses to the following questions, then provide t
 
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-    With **90,398** people set to retire and the only 1,549 selected to be mentored, I believe there are enough qualified, retirement-ready employees.
+    With **90,398** people set to retire and the only 1,549 selected to be mentored, I believe there are enough qualified, retirement-ready employees to mentor the next generation of employees. 
+    
+## Additional queries/tables   
+  
+1) The management did not select just 1 year of birth to make a list of retireeing elmplyees (it chose 3 years - DOB between 1952 and 1955).
+
+    If it applies the 3-year DOB criteria for the mentorship program, the pool can be increased. 
+
+    ``` 
+        SELECT DISTINCT ON (e.emp_no) 
+            e.emp_no,
+            e.first_name, 
+            e.last_name,
+            e.birth_date,
+            de.from_date,
+            de.to_date,
+            ti.title
+        INTO revised_mentorship_eligibilty	
+        FROM employees as e
+        INNER JOIN dept_employee as de
+        ON e.emp_no = de.emp_no
+        INNER JOIN titles as ti
+        ON e.emp_no = ti.emp_no	
+        WHERE (e.birth_date BETWEEN '1962-01-01' AND '1965-12-31')
+        AND de.to_date = '9999-01-01'
+        ORDER BY e.emp_no;
+    ```

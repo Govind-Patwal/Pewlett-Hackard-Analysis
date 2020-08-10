@@ -39,7 +39,7 @@ Four major points from the two analysis deliverables.
     
     The reason behind the duplicates records is that the data is coming straight out from the table **titles**, which contains all the titles that a person has ever held while working with Pewlett Hackard. The table **titles** has **443,308** records as compared to **300,024** in the table **employees**.
 
-    TAKEAWAY - If we have a table that has the latest titles of all employees, many steps can be saved. We can create this table by using the script below
+    TAKEAWAY - If we have a table that has the latest titles of all employees, many steps can be saved. In the past Pewlett Hackard has been using EXCEL and VBA - with SQL, this table can be create using some lines of code
     ```
     SELECT  DISTINCT ON (emp_no)
 	    emp_no,
@@ -55,17 +55,20 @@ Four major points from the two analysis deliverables.
 2) ### Unique Titles
     We retrieved the unique people that are set to retire. The number came out to **90,398**. With a total employee count of **300,024**, this points to the fact that **30.13%** of employees of Pewlett Hackard are set to retire.
 
-    **Image 2 (below): Table - Unique People Retiring**
+    **Image 2 (below): Table - Unique Titles**
 
     ![Unique Titles](./Resources/unique_titles.png)
 
-    The table and the % of people that are set to retire points to the tough task in front of the HR department. Assuming that Pewlett Hackard is not overstaffed, 30% of less people could have a dramatic effect on the productivity of the company and even its viability.
-
+    The table and the % of people that are set to retire points to the tough task in front of the HR department. Assuming that Pewlett Hackard is not overstaffed, 30% of less people could have a dramatic effect on the productivity of the company and even its viability. The time to Act is NOW!
 
 3) ### Retiring Titles
+    This table kind of explains the reason why this has come to the point of a a **Silver Tsunami**. Assuming a normal distribution, Managers constitute 0.000022% of the workforce. With so less managers, there is no one talking to the HR team about team members reaching retirement age.
+
+    **Image 3 (below): Table - Retiring Titles**
 
     ![Retiring Titles](./Resources/retiring_titles.png)
 
+    While the HR team should work on replacing all titles, it should also think about increasing the % of managers, and having ongoing (bi-annual/quarterly) discussion about their staffing situations and needs.
 
 3) Mentorship Eligibility
 

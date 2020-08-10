@@ -30,19 +30,40 @@ Now Bobby's manager has given both of you two more assignments: determine the nu
 Four major points from the two analysis deliverables. 
 
 1) ### Retirement Titles 
-    The total number of records retreived was **133,776**. However it does not tell us the correct number of people about to retire - there are a lot of duplicate entries. The reason behind this is that the data is coming straight out from the table **titles**, which contains all the titles that a person has ever held while working with Pewlett Hackard. The table **titles** has **443,308** records as compared to **300,024** in the table **employees**.
-
-    If we had a table to start with that had the latest titles of all employees, many steps would have been saved.
-
+    The total number of records retreived was **133,776**. However it does not tell us the correct number of people about to retire - there are a lot of duplicate entries. 
+    
     **Image 1 (below): Table - Retirement Titles**
 
     ![Retirement Titles](./Resources/retirement_titles.png)
+    
+    
+    The reason behind the duplicates records is that the data is coming straight out from the table **titles**, which contains all the titles that a person has ever held while working with Pewlett Hackard. The table **titles** has **443,308** records as compared to **300,024** in the table **employees**.
+
+    TAKEAWAY - If we have a table that has the latest titles of all employees, many steps can be saved. We can create this table by using the script below
+    ```
+    SELECT  DISTINCT ON (emp_no)
+	    emp_no,
+	    title,
+	    from_date,
+	    to_date
+    INTO latest_titles_of_employees
+    FROM titles
+    ORDER BY emp_no;
+    ```
+    This new table **latest_titles_of_employees** has **300,024** records, the same as the employees table. 
 
 
 2) ### Unique Titles
-We retrieved the unique people that are set to retire. The number came out to **90,398**. With an employee count of **300,024**, this means that a 
+    We retrieved the unique people that are set to retire. The number came out to **90,398**. With a total employee count of **300,024**, this points to the fact that **30.13%** of employees of Pewlett Hackard are set to retire.
+
+    **Image 2 (below): Table - Unique People Retiring**
 
     ![Unique Titles](./Resources/unique_titles.png)
+
+
+
+
+    
 
 3) Retiring Titles
 

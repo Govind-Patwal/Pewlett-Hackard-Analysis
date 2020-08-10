@@ -120,7 +120,7 @@ Four major points from the two analysis deliverables.
 
     ![Revised Mentorship Eligibility](./Resources/mentorship_eligibility_by_titles.png)
 
-    **Link to download the mentorship_eligibility_by_titles CSV file -** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/mentorship_eligibility_by_titles.csv)
+    **Link to download the mentorship_eligibility_by_titles CSV file -** [**HERE**](./Data/Additional_tables/mentorship_eligibility_by_titles.csv)
 
 
 2. The management selected the DOB between 1952 and 1955 while making the list of retiring employees
@@ -152,6 +152,6 @@ Four major points from the two analysis deliverables.
 
     ![Revised Mentorship Eligibility](./Resources/revised_mentorship_eligibilty.png)
 
-    **Link to download the revised_mentorship_eligibilty CSV file -** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/revised_mentorship_eligibilty.csv)   
+    **Link to download the revised_mentorship_eligibilty CSV file -** [**HERE**](./Data/Additional_tables/revised_mentorship_eligibilty.csv)   
 
     **Result** - If the DOB criteria is broadned, the pool can be substantially increased - applying the criteria  increases the number of people eligible for mentorship to **56,859** from **1,549** (a jump from 1.7% to 63%). 

@@ -102,30 +102,30 @@ Four major points from the two analysis deliverables.
     
 ## Additional queries/tables   
   
-1) We can run a query to group the canditates for the mentorship program come from, so tha the HR can see where more hiring focus needs to be put in
+1) We can run a query to group the canditates for the mentorship program according to titles. This will allow the HR to align their hiring focus.
+    
+    **Script**
     ```
     SELECT count(title), 
         title
-        INTO mentorship_eligibility_by_titles
-        FROM mentorship_eligibilty
-        GROUP BY title
-        ORDER BY count DESC;
+    INTO mentorship_eligibility_by_titles
+    FROM mentorship_eligibilty
+    GROUP BY title
+    ORDER BY count DESC;
     ```    
    
     **Image 5 (below): Table - Mentorship Eligibility By Titles**  
 
     ![Revised Mentorship Eligibility](./Resources/mentorship_eligibility_by_titles.png)
 
-    **To download the mentorship_eligibility_by_titles CSV file, click** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/mentorship_eligibility_by_titles.csv)
+    **Link to download the mentorship_eligibility_by_titles CSV file -** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/mentorship_eligibility_by_titles.csv)
 
 
 2. The management selected the DOB between 1952 and 1955 while making the list of retiring employees
 
-    What will happen if it applies the 3-year DOB criteria for the mentorship program. Result - the pool can be substantially increased. 
+    A query can be run to see what will happen if the management applies the 3-year DOB criteria for the mentorship program. 
 
-    Applying the criteria (DOB between 1962 to 1965) increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%)
-
-    Below is the code
+    **Script**
 
     ``` 
         SELECT DISTINCT ON (e.emp_no) 
@@ -150,4 +150,6 @@ Four major points from the two analysis deliverables.
 
     ![Revised Mentorship Eligibility](./Resources/revised_mentorship_eligibilty.png)
 
-    **To download the revised_mentorship_eligibilty CSV file, click** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/revised_mentorship_eligibilty.csv)    
+    **Link to download the revised_mentorship_eligibilty CSV file -** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/revised_mentorship_eligibilty.csv)   
+
+    **Result** - If the DOB criteria is bradned, the pool can be substantially increased - applying the criteria (DOB between 1962 to 1965) increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%). 

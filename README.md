@@ -87,15 +87,16 @@ Summary: Provide high-level responses to the following questions, then provide t
 
 * How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-    The total number of people people who will be retiring is **90,398**
+    The total number of people people that need to be filled is **90,398**
+
     The breakdown is 
-    Senior Engineers: 29,414
-    Senior Staff: 28,254
-    Engineer: 14,222
-    Staff: 12,243
-    Technique Leader: 4,502
-    Assistant Engineer: 1,761
-    Manager: 2
+    * Senior Engineers: 29,414
+    * Senior Staff: 28,254
+    * Engineer: 14,222
+    * Staff: 12,243
+    * Technique Leader: 4,502
+    * Assistant Engineer: 1,761
+    * Manager: 2
 
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 

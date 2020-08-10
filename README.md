@@ -83,8 +83,6 @@ Four major points from the two analysis deliverables.
 
 ## Summary
 
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-
 * How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
     The total number of people people that need to be filled is **90,398**
@@ -104,11 +102,30 @@ Summary: Provide high-level responses to the following questions, then provide t
     
 ## Additional queries/tables   
   
-1) The management selected the DOB between 1952 and 1955 while making the list of retiring employees
+1) We can run a query to group the canditates for the mentorship program come from, so tha the HR can see where more hiring focus needs to be put in
+    ```
+    SELECT count(title), 
+        title
+        INTO mentorship_eligibility_by_titles
+        FROM mentorship_eligibilty
+        GROUP BY title
+        ORDER BY count DESC;
+    ```    
+   
+    **Image 5 (below): Table - Mentorship Eligibility By Titles**  
 
-    If it applies the 3-year DOB criteria for the mentorship program, the pool can be substantially increased. 
+    ![Revised Mentorship Eligibility](./Resources/mentorship_eligibility_by_titles.png)
 
-    Applying the criteria below increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%)
+    **To download the mentorship_eligibility_by_titles CSV file, click** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/mentorship_eligibility_by_titles.csv)
+
+
+2. The management selected the DOB between 1952 and 1955 while making the list of retiring employees
+
+    What will happen if it applies the 3-year DOB criteria for the mentorship program. Result - the pool can be substantially increased. 
+
+    Applying the criteria (DOB between 1962 to 1965) increases the number of people eligible for mentorship to **56,859** (a jump from 1.7% to 63%)
+
+    Below is the code
 
     ``` 
         SELECT DISTINCT ON (e.emp_no) 
@@ -133,4 +150,4 @@ Summary: Provide high-level responses to the following questions, then provide t
 
     ![Revised Mentorship Eligibility](./Resources/revised_mentorship_eligibilty.png)
 
-    **To download the revised_mentorship_eligibilty CSV file, click** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/revised_mentorship_eligibilty.csv)
+    **To download the revised_mentorship_eligibilty CSV file, click** [**HERE**](https://github.com/Govind-Patwal/Pewlett-Hackard-Analysis/blob/master/Data/revised_mentorship_eligibilty.csv)    
